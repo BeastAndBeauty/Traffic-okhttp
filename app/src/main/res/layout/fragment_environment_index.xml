@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.EnvironmentIndexFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FF0098CB">
+
+        <ImageView
+            android:id="@+id/open_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/norrow"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="环境指标"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="阈值设置"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rlTemperature"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            >
+
+            <TextView
+                android:id="@+id/text_temperature"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rectangle"
+                android:text="温度"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/temperature_number"
+                android:layout_width="50dp"
+                android:layout_height="50sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/circle"
+                android:gravity="center"
+                android:text="32" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlHumidity"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            >
+
+            <TextView
+                android:id="@+id/text_humidity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rectangle"
+                android:text="湿度"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/humidity_number"
+                android:layout_width="50dp"
+                android:layout_height="50sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/circle"
+                android:gravity="center"
+                android:text="32" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlSunShine"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            >
+
+            <TextView
+                android:id="@+id/text_sun_shine"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rectangle"
+                android:text="光照"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/sun_shine_number"
+                android:layout_width="50dp"
+                android:layout_height="50sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/circle"
+                android:gravity="center"
+                android:text="32" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rlCo2"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            >
+
+            <TextView
+                android:id="@+id/text_co_temperature"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rectangle"
+                android:text="CO2"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/co_number"
+                android:layout_width="50dp"
+                android:layout_height="50sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/circle"
+                android:gravity="center"
+                android:text="32" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlPM"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            >
+
+            <TextView
+                android:id="@+id/text_pm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rectangle"
+                android:text="PM2.5"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/pm_number"
+                android:layout_width="50dp"
+                android:layout_height="50sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/circle"
+                android:gravity="center"
+                android:text="32" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlRoadStatus"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            >
+
+            <TextView
+                android:id="@+id/text_road_status"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rectangle"
+                android:text="道路状态"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/road_status_number"
+                android:layout_width="50dp"
+                android:layout_height="50sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/circle"
+                android:gravity="center"
+                android:text="32" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

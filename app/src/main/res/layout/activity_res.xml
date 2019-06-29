@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ResActivity"
+    android:orientation="vertical">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/res_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回登录"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/black"
+            tools:ignore="MissingConstraints" />
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/res_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="请输入身份证号"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/res_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="请输入用户名"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/res_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/res_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="请输入姓名"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/res_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="请输入手机号码"
+            android:inputType="phone"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/res_boy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="男" />
+
+                <RadioButton
+                    android:id="@+id/res_girl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="女" />
+            </LinearLayout>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/res_res"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册" />
+    </LinearLayout>
+
+</LinearLayout>

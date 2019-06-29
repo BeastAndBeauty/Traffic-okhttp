@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.TrafficLightManagerFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FF0098CB">
+
+        <ImageView
+            android:id="@+id/open_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/norrow"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="红绿灯管理"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="路编号"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:background="@drawable/rectangle"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="拥挤程度"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:background="@drawable/rectangle"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="红绿灯编号"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:background="@drawable/rectangle"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="路灯原时长"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:background="@drawable/rectangle"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="路灯时长"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:background="@drawable/rectangle"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="修改时间"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:background="@drawable/rectangle"/>
+
+
+        </TableRow>
+
+        <ListView
+            android:id="@+id/list_view"/>
+
+
+
+    </TableLayout>
+
+
+</LinearLayout>

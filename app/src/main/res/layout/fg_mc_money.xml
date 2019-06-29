@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <android.support.constraint.ConstraintLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            android:layout_margin="20dp">
+
+            <LinearLayout
+                android:id="@+id/fg_mc_money_car1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:background="@android:color/holo_green_light">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1号小车"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp"/>
+
+                    <TextView
+                        android:id="@+id/fg_mc_money_message1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="正常"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fg_mc_money_money1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="100"
+                    android:textColor="@android:color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:background="@android:color/white"
+                    android:layout_margin="20dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fg_mc_money_car1no"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/darker_gray"
+                android:text="没有1号小车"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            android:layout_margin="20dp">
+
+            <LinearLayout
+                android:id="@+id/fg_mc_money_car2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:background="@android:color/holo_green_light">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2号小车"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp"/>
+
+                    <TextView
+                        android:id="@+id/fg_mc_money_message2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="正常"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fg_mc_money_money2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="100"
+                    android:textColor="@android:color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:background="@android:color/white"
+                    android:layout_margin="20dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fg_mc_money_car2no"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/darker_gray"
+                android:text="没有2号小车"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <android.support.constraint.ConstraintLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            android:layout_margin="20dp">
+
+            <LinearLayout
+                android:id="@+id/fg_mc_money_car3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:background="@android:color/holo_green_light">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1号小车"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp"/>
+
+                    <TextView
+                        android:id="@+id/fg_mc_money_message3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="正常"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fg_mc_money_money3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="100"
+                    android:textColor="@android:color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:background="@android:color/white"
+                    android:layout_margin="20dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fg_mc_money_car3no"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/darker_gray"
+                android:text="没有3号小车"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+
+
+        <android.support.constraint.ConstraintLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            android:layout_margin="20dp">
+
+            <LinearLayout
+                android:id="@+id/fg_mc_money_car4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:background="@android:color/holo_green_light">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1号小车"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp"/>
+
+                    <TextView
+                        android:id="@+id/fg_mc_money_message4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="正常"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fg_mc_money_money4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="100"
+                    android:textColor="@android:color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:background="@android:color/white"
+                    android:layout_margin="20dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fg_mc_money_car4no"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/darker_gray"
+                android:text="没有4号小车"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+</LinearLayout>

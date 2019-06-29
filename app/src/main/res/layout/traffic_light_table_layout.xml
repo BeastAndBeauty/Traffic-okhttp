@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/road_number"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="1"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:background="@drawable/rectangle"/>
+
+        <TextView
+            android:id="@+id/road_status"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="5"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:background="@drawable/rectangle"/>
+
+        <TextView
+            android:id="@+id/traffic_light_number"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="1"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:background="@drawable/rectangle"/>
+
+        <TextView
+            android:id="@+id/road_light_time_before"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="20"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:background="@drawable/rectangle"/>
+
+        <TextView
+            android:id="@+id/road_light_time"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="30"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:background="@drawable/rectangle"/>
+
+        <TextView
+            android:id="@+id/modify_date"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="2017.3.18 13:23"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:background="@drawable/rectangle"/>
+
+</TableRow>

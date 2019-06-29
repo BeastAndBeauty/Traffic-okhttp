@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.SunShineDetectionFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FF0098CB">
+
+        <ImageView
+            android:id="@+id/open_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/norrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="光照检测"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="光照强度查询"
+        android:textSize="28sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+    <Button
+        android:id="@+id/btn_acquire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"
+        android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置自动手动控制模式"
+        android:textSize="28sp"
+        android:layout_marginTop="20dp"/>
+
+    <Switch
+        android:id="@+id/switch_control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="自动"
+        android:textOn="手动"
+        android:textSize="28sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

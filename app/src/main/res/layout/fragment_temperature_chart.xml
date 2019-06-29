@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChildFragment.TemperatureChartFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/chart_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="温度"
+        android:textSize="28dp"/>
+
+        <Switch
+            android:id="@+id/second_minute_change"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textOff="3秒"
+            android:textOn="1分钟"
+            android:textSize="28dp"/>
+
+
+    </LinearLayout>
+
+
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/line_chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

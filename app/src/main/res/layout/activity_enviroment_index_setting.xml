@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.EnvironmentIndexSettingActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FF0098CB">
+
+        <ImageView
+            android:id="@+id/open_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/norrow"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="阈值设置"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28dp"
+            android:text="自动报警："/>
+
+        <TextView
+            android:id="@+id/switch_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <Switch
+            android:id="@+id/switch_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="温度："
+            android:textSize="28sp"/>
+
+        <EditText
+            android:id="@+id/edt_temperature"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:maxLines="1"
+            android:textSize="28sp"
+            android:background="@drawable/rectangle"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="湿度："
+            android:textSize="28sp"/>
+
+        <EditText
+            android:id="@+id/edt_humidity"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:maxLines="1"
+            android:textSize="28sp"
+            android:background="@drawable/rectangle"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="光照："
+            android:textSize="28sp"/>
+
+        <EditText
+            android:id="@+id/edt_sun_shine"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:maxLines="1"
+            android:textSize="28sp"
+            android:background="@drawable/rectangle"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="CO2："
+            android:textSize="28sp"/>
+
+        <EditText
+            android:id="@+id/edt_co"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:maxLines="1"
+            android:textSize="28sp"
+            android:background="@drawable/rectangle"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="PM2.5："
+            android:textSize="28sp"/>
+
+        <EditText
+            android:id="@+id/edt_pm"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:maxLines="1"
+            android:textSize="28sp"
+            android:background="@drawable/rectangle"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="道路状态:"
+            android:textSize="28sp"/>
+
+        <EditText
+            android:id="@+id/edt_road_status"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:maxLines="1"
+            android:textSize="28sp"
+            android:background="@drawable/rectangle"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保存"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+</LinearLayout>
